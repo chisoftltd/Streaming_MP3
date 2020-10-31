@@ -7,7 +7,6 @@ using Android.Media;
 using Android.Widget;
 using static Android.Views.View;
 using Android.Views;
-using Java.Lang;
 
 namespace Streaming_MP3
 {
@@ -17,7 +16,6 @@ namespace Streaming_MP3
         public ImageButton btn_play_pause;
         public SeekBar seekBar;
         public TextView txt_timer;
-
         public VusikView musicView;
 
         public MediaPlayer mediaPlayer;
